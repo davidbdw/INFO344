@@ -1,0 +1,8 @@
+body {
+	background-color: #CCFFCC;
+	text-align: center;
+}
+
+#pageTitle, #notSetMessage, #searchMessage {	
+	font-size: 24pt;
+}
