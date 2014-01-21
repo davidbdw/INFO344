@@ -9,7 +9,7 @@
       <img src="nbamap.jpg" alt="NBA logo">
 	  <p id="pageTitle">NBA Player Stat Search</p>
 	  
-	  <form name="input" action="result.php" method="get">
+	  <form name="input" action="result.php" method="post">
 	  	Search NBA Player: <input type="text" name="user">
 	  	<input name="playerName" type="submit" value="Search">
 	  </form>

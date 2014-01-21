@@ -9,11 +9,11 @@
       <img src="nbamap.jpg" alt="NBA logo">
       <br />
       <?php
-		$getName = $_GET['user'];
+		$getName = $_POST['user'];
 		
 		if ($getName == NULL) { ?>
 			<p id="notSetMessage">Please enter in a player name!</p>
-			<form name="input" action="result.php" method="get">
+			<form name="input" action="result.php" method="post">
 	  			Search NBA Player: <input type="text" name="user">
 	  			<input name="playerName" type="submit" value="Search">
 	  		</form>
