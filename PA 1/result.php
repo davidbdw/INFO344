@@ -58,7 +58,7 @@
 				
 			</table>
 			<br />
-			<form name="input" action="result.php" method="get">
+			<form name="input" action="result.php" method="post">
 	  			Search NBA Player: <input type="text" name="user">
 	  			<input name="playerName" type="submit" value="Search">
 	  		</form>
